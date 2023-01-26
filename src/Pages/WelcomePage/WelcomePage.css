@@ -1,0 +1,24 @@
+.login-logo-image{
+    width: 15%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.Login-In-Option-Box{
+    position: absolute !important;
+    right: 20%;
+    top: 7%;
+}
+.Sign-up-button{
+    position: absolute !important;
+    top: 5.5%;
+    width: 100px !important;
+    right: 10%;
+    border-radius: 20px !important; 
+}
+.center-image{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 80%;
+}
