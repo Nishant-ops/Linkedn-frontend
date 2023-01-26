@@ -1,4 +1,4 @@
-import { Box, Button, Grid } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import React from "react";
 import loginHero from "./login-logo.svg";
 import login from "./login-hero.svg";
@@ -8,14 +8,14 @@ function WelcomePage() {
   return (
     <div className="Welcome-page-start">
       <div className="Welcome-page-upper-half-left">
-        <img src={loginHero} className="login-logo-image"></img>
+        <img src={loginHero} className="login-logo-image" alt="loginHero"></img>
         <Grid container className="Welcome-page-upper-half-right">
           <Grid item>
-            <Button variant="text" className="Login-In-Option-Box"> Login In</Button>
+            <Button variant="text" className="Login-In-Option-Box">Join Now</Button>
           </Grid>
           <Grid item>
             <Button className="Sign-up-button" variant="outlined">
-              Sign Up
+              Login In
             </Button>
           </Grid>
         </Grid>
@@ -25,7 +25,7 @@ function WelcomePage() {
             <WelcomPageSignIn/>
         </div>
         <div className="Welcome-page-middle-part-right">
-          <img src={login} className="center-image"></img>
+          <img src={login} className="center-image" alt="login"></img>
         </div>
       </div>
     </div>

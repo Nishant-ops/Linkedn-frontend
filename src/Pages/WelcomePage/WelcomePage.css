@@ -7,7 +7,7 @@
 .Login-In-Option-Box{
     position: absolute !important;
     right: 20%;
-    top: 7%;
+    top: 5.5%;
 }
 .Sign-up-button{
     position: absolute !important;
@@ -15,6 +15,15 @@
     width: 100px !important;
     right: 10%;
     border-radius: 20px !important; 
+}
+.Welcome-page-middle-part{
+    display: flex;
+}
+.Welcome-page-middle-part-left{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 10vh;
+    border: 3px solid;
 }
 .center-image{
     width: 50%;
